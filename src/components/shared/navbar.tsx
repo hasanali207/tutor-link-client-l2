@@ -12,9 +12,9 @@ const NavBar = () => {
 
   const navLinks = [
     { label: 'Home', href: '/' },
-    { label: 'All Tutors', href: '#' },
-    { label: 'About Us', href: '#' },
-    { label: 'Faq', href: '#' },
+    { label: 'All Tutors', href: '/tutors' },
+    { label: 'About Us', href: '/about' },
+    { label: 'Faq', href: '/faq' },
   ];
 
 
@@ -27,7 +27,7 @@ const NavBar = () => {
 
   return (  
     <nav
-      className='fixed top-0 z-50 w-full shadow-sm  transition-all duration-300'
+      className='fixed top-0 z-50 bg-white w-full shadow-sm  transition-all duration-300'
     >
       <div className="container mx-auto px-4 py-6 flex justify-between items-center">
         <Link href="/" className="text-3xl font-bold">
